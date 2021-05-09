@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Verdana', serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(194, 193, 193);
+    background-image: url("https://i.postimg.cc/fTGQGg3p/Euro.jpg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(172, 174, 175);
+}
+
+.container__mainHeader {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.container__header {
+    margin-left: 10px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.form__text {
+    font-size: x-small;
+    margin-left: 20px;
+}
+
+.form__labelText {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__field {
+    border: 3px solid rgba(10, 8, 1, 0.137);
+    background-color: lightgray;
+    padding: 5px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form__field:invalid {
+    background-color: rgba(233, 69, 69, 0.233);
+}
+
+.form__button {
+    width: 100%;
+    background-color: rgb(122, 119, 112);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form__button:hover {
+    background-color: lightgray;
+}
+
+.form__button:active {
+    background-color: rgb(117, 129, 151);
+}
+
+.form__fieldset {
+    border: 1px solid rgb(151, 151, 151);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    border: 3px solid rgb(31, 31, 31);
+    background-color: lightgray;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+}
