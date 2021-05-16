@@ -8,6 +8,7 @@
         const rateEUR = 4.56;
         const rateUSD = 3.75;
         const rateGBP = 5.24;
+        const rateRUB = 0.5;
 
         switch (currency) {
             case "EUR":
@@ -18,6 +19,8 @@
 
             case "GBP":
                 return amount / rateGBP;
+            case "RUB":
+                return amount / rateRUB;
 
         }
 
